@@ -19,7 +19,7 @@ Datasource: Data was sourced from the popular adventure works data you can [down
 
 ## Creating Lakehouse: 
 In Synapse Data Engineering, create three Lakehouses called Sales_Bronze, Sales_Silver and Sales_Gold.
-![Create Silver,Bronze and Gold Lakehouse](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Creating%20Bronze%2C%20Silver%20and%20Gold%20Lakehouse.png).
+![Create Silver,Bronze and Gold Lakehouse](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Creating%20Bronze%2C%20Silver%20and%20Gold%20Lakehouse.jpg).
 
 ## Data Ingestion:
 + In the Sales_Bronze Lakehouse, Upload the [Sample Adventureworks Dataset](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/tree/main/Sample_Adventureworks_Dataset).
@@ -31,13 +31,13 @@ In Synapse Data Engineering, create three Lakehouses called Sales_Bronze, Sales_
 In the Sales_Silver Lakehouse, click on new Notebook to transform data for the Sales_Silver Lakehouse or you can import the 
 [Silver_Data_Transformation Notebook](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Silver_Data_Transformation.ipynb). Remember to copy/change the ABFS File Path of each table from the Sales_Bronze lakehouse before you Run ALL. 
 
-![Sales_Silver](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Sales_Silver.png) 
+![Sales_Silver](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Sales_Silver.jpg) 
 
  ## Gold Data Transformation.
 In the Sales_Gold Lakehouse, click on new Notebook to transform data for the Sales_Gold Lakehouse or you can import the 
 [Gold_Data_Transformation Notebook](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Gold_Data_Transformation.ipynb). Remember to copy/change the ABFS File Path of each table from the Sales_Bronze lakehouse before you Run ALL. 
 
-![Sales_Gold](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Sales_Gold.png) 
+![Sales_Gold](https://github.com/SamBoss19/Medallion-Architecture-on-Microsoft-Fabric/blob/main/Sales_Gold.jpg) 
 
  ## Data Modelling.
 Now that we have the final data in the Sales_Gold Lakehouse, we need to model the semantic data before visualization in Power BI.
